@@ -16,7 +16,7 @@ features_to_use = ['W_PCT', 'PTS', 'REB', 'AST', 'FG_PCT', 'TOV',
                    'STL', 'BLK', 'PLUS_MINUS', 'AssistRatio', 'WinStreak']
 
 # Title
-st.title("🏀 Team vs Team Match Predictor")
+st.title("🏀 NBA Match Predictor")
 
 # Team selection
 teams = df_final_scaled['TEAM_NAME'].unique()
